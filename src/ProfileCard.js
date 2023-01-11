@@ -6,7 +6,9 @@ function ProfileCard({ title, handle, image }) {
 
   return (
     <div>
-      <div>src={image} alt="pda logo"</div>
+      <div>
+        <img src={image} alt="pda logo" />
+      </div>
       <div>Title is {title}</div>
       <div>Handle is {handle}</div>
     </div>
